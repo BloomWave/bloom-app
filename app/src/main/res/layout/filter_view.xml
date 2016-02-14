@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="7"
+    android:paddingLeft="10px"
+    android:paddingTop="20px"
+    android:paddingRight="30px"
+    android:paddingBottom="20px">
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/qualSlider"
+        android:layout_below="@+id/freqTextm"
+        android:layout_toRightOf="@+id/qualText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:minWidth="450px"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="2" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gainSlider"
+        android:layout_alignBottom="@+id/gainText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/gainText"
+        android:layout_toEndOf="@+id/gainText"
+        android:layout_below="@+id/qualText"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:minWidth="450px"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="2" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/freqSlider"
+        android:layout_below="@+id/textView4"
+        android:layout_toRightOf="@+id/freqTextm"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/qualSlider"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:minWidth="450px"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="2" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter Lowpass"
+        android:id="@+id/chanSwitch"
+        android:layout_above="@+id/freqSlider"
+        android:layout_toRightOf="@+id/freqTextm"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/freqSlider"
+        android:layout_alignEnd="@+id/freqSlider"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:checked="false"
+        android:layout_columnSpan="2" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/typeCombo"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:spinnerMode="dropdown"
+        android:layout_columnSpan="1"
+        android:entries="@array/type_filter_array" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Qual"
+        android:id="@+id/qualText"
+        android:layout_alignTop="@+id/qualSlider"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_column="0"
+        android:layout_row="2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Gain"
+        android:id="@+id/gainText"
+        android:layout_below="@+id/qualText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_row="3"
+        android:layout_column="0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/chanSwitch"
+        android:layout_toStartOf="@+id/chanSwitch"
+        android:layout_column="0"
+        android:layout_row="4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Freq"
+        android:id="@+id/freqText"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_column="0"
+        android:layout_row="1" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout2"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_columnSpan="2" >
+
+    </LinearLayout>
+
+</GridLayout>

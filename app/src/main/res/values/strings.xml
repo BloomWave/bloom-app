@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Resonance</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="player_state">"PlayerState</string>
+    <string name="add_filter">Add Filter</string>
+
+    <string-array name="type_filter_array">
+        <item>Lowpass</item>
+        <item>Highpass</item>
+        <item>Lowshelf</item>
+        <item>HighShelf</item>
+        <item>Peak</item>
+    </string-array>
+</resources>
