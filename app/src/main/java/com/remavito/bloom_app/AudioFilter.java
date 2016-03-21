@@ -1,4 +1,4 @@
-package com.remavito.resonance;
+package com.remavito.bloom_app;
 
 import android.media.audiofx.AudioEffect;
 import android.util.Log;

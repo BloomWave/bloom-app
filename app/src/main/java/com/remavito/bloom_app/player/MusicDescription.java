@@ -1,4 +1,4 @@
-package com.remavito.resonance.player;
+package com.remavito.bloom_app.player;
 
 /**
  * Created by tomMoral on 07/11/15.

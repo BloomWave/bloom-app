@@ -1,5 +1,6 @@
-package com.remavito.resonance;
+package com.remavito.bloom_app;
 
+import android.media.AudioRecord;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -13,7 +14,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListAdapter;
 
-import com.remavito.resonance.player.Player;
+import com.remavito.bloom_app.audio_processing.FFT_Processing;
+import com.remavito.bloom_app.player.Player;
 
 
 public class MainActivity extends AppCompatActivity {

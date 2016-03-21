@@ -1,4 +1,4 @@
-package com.remavito.resonance.player;
+package com.remavito.bloom_app.player;
 
 import android.util.Log;
 

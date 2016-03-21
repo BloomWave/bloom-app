@@ -27,6 +27,8 @@
     <android.support.design.widget.FloatingActionButton android:id="@+id/playBtn"
         android:layout_width="wrap_content" android:layout_height="wrap_content"
         android:layout_gravity="end|bottom" android:layout_margin="@dimen/fab_margin"
-        android:src="@android:drawable/ic_media_play" />
+        android:src="@android:drawable/ic_media_play"
+        app:backgroundTint="#2f6af2" />
+
 
 </android.support.design.widget.CoordinatorLayout>

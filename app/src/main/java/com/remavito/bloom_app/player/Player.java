@@ -1,4 +1,4 @@
-package com.remavito.resonance.player;
+package com.remavito.bloom_app.player;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,9 +11,9 @@ import android.os.Process;
 import android.util.Log;
 import android.widget.ListAdapter;
 
-import com.remavito.resonance.AudioFilter;
-import com.remavito.resonance.FilterAdapter;
-import com.remavito.resonance.FilterView;
+import com.remavito.bloom_app.AudioFilter;
+import com.remavito.bloom_app.FilterAdapter;
+import com.remavito.bloom_app.FilterView;
 
 import java.io.File;
 import java.io.FileFilter;

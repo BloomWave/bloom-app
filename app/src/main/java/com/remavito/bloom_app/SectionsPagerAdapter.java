@@ -1,4 +1,4 @@
-package com.remavito.resonance;
+package com.remavito.bloom_app;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

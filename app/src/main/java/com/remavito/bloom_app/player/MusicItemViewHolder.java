@@ -1,4 +1,4 @@
-package com.remavito.resonance.player;
+package com.remavito.bloom_app.player;
 
 import android.app.Activity;
 import android.util.Log;
@@ -9,8 +9,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.remavito.resonance.MainActivity;
-import com.remavito.resonance.R;
+import com.remavito.bloom_app.MainActivity;
+import com.remavito.bloom_app.R;
 
 import java.util.ArrayList;
 

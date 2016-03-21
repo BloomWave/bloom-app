@@ -1,4 +1,4 @@
-package com.remavito.resonance;
+package com.remavito.bloom_app;
 
 import android.app.Activity;
 import android.util.Log;
@@ -12,7 +12,7 @@ import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import com.remavito.resonance.player.Player;
+import com.remavito.bloom_app.player.Player;
 
 /**
  * Created by tomMoral on 06/11/15.
